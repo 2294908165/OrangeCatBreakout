@@ -1,75 +1,77 @@
 # 橘猫突围：最后一罐
 
-**从标题界面开始**：在 Unity 打开 `Assets/Game/Scenes/TitleScreen.unity`，点 Play，再点「开始游戏」进入第一关。标题界面支持 Enter、空格和手柄南键，M 切换音乐。详见 `docs/title_screen.md`。
+> 雨夜出发。天亮前，带着最后一罐回家。
 
-**完整试玩路线**从 `Assets/Game/Scenes/Warehouse01.unity` 开始。第一、二、四关通关后按 **E** 续关。第三关乘货梯到顶后自动进入第四关。第四关在屋顶给两处电闸通电，撤离后进入 **第五关·罐头守卫**。击败守卫并拿到最后一罐即通关。详见 `docs/rooftop04.md` 和 `docs/can_guard05.md`。
+《橘猫突围：最后一罐》是一款用 **Unity 6.3 LTS** 制作的 **2D 像素横版动作游戏**。选择哈橘或姜爪，穿过雨夜仓库、冷库和装卸台，一路登上屋顶，在机房里迎战罐头守卫。
 
-**第三关·装卸升降台**可从第二关通关后按 **E** 进入，或直接打开 `Assets/Game/Scenes/LoadingBay03.unity`。跨过地刺后会遇到笑肚怪。在右侧按钮旁按 **E** 呼叫货梯，登梯撤离。见 `docs/loading_bay03.md`。
+![标题画面。哈橘和姜爪在雨夜码头跳舞](docs/TitleScreen.gif)
 
-**第二关·冷库输送线**已加入工程。第一关拿到罐头后按 **E**，或直接打开 `Assets/Game/Scenes/ColdStorage02.unity`。在输送带上应对飞虫俯冲，击败它后从装卸口离开。见 `docs/cold_storage02.md`。
+## 开始试玩
 
-**第一关·雨夜仓库**已加入工程。打开 `Assets/Game/Scenes/Warehouse01.unity`，按 Play。通过蒸汽井盖、地刺和工业风轮，击败流浪老鼠，穿过开启的门拿走最后一罐。见 `docs/warehouse01.md`。
+需要 **Unity 6000.3.28f1**、Git 和 **Git LFS**。图像和音频资源包含 LFS 文件。
 
-**像素风试玩**已加入工程。打开 `Assets/Game/Scenes/PixelPreview.unity` 并按 Play，可试玩像素版哈橘和姜爪。构建方式和素材来源见 `docs/pixel_preview.md`。
+```bash
+git lfs install
+git clone https://github.com/2294908165/OrangeCatBreakout.git
+cd OrangeCatBreakout
+git lfs pull
+```
 
-**Phase 2 战斗测试**已加入工程。打开 `Assets/Game/Scenes/CombatTest.unity` 并按 Play。HUD 可换角、重置目标及重启。详细操作、参数、测试报告和下一阶段接口见 `docs/phase2_implementation.md`、`docs/phase2_tuning.md`、`docs/phase2_test_report.md` 与 `docs/phase3_handoff.md`。以下为 PhaseOne 场景说明。
+1. 在 Unity Hub 选择 **Add project from disk**，打开克隆得到的 `OrangeCatBreakout` 文件夹。
+2. 等待 Unity 导入项目和依赖。在 **Project** 面板打开 [TitleScreen.unity](Assets/Game/Scenes/TitleScreen.unity)。
+3. 点 **Play**，然后点击 **开始游戏**。也可以按 **Enter**、**空格**或手柄南键。
 
-## Phase 0 / Phase 1 原型记录
+标题场景已排在构建场景列表首位。需要单独试招时，可以打开 [PixelPreview.unity](Assets/Game/Scenes/PixelPreview.unity)。
 
-PhaseOne 原型在 Unity 6.3 LTS 6000.3.28f1 完成导入、编译和场景构建，首轮 EditMode 2/2、PlayMode 1/1 通过。以下操作和功能说明适用于 PhaseOne 场景。
+## 操作
 
-## 安装和启动
+| 动作 | 键盘 | 手柄 |
+| --- | --- | --- |
+| 移动 | A / D 或 ← / → | 左摇杆 |
+| 跳跃、二段跳 | 空格 | 南键（Xbox A） |
+| 普通攻击 | J | 西键（Xbox X） |
+| 翻滚 | 左 Shift | 东键（Xbox B） |
+| 哈橘哈气 | Q | 右肩键 |
+| 姜爪格挡 | K | 左肩键 |
+| 交互、续关 | E | 北键（Xbox Y） |
+| 暂停 | Esc | Start |
+| 重试当前关 | R | 倒地后按南键 |
 
-1. Unity Hub → Add project from disk，选择本目录，用 Unity **6.3 LTS** 打开。当前验证版本为 6000.3.28f1。
-2. 等待 Package Manager 导入 Input System 1.20.1、Test Framework 1.6.0；若联网解析失败，先解决包下载。已包含实际解析生成的 packages-lock.json。
-3. 接受启用新 Input System 的 Editor 重启提示。工具也会写入 Active Input Handling = Input System Package。若未生效，在 Project Settings → Player 手动设定后重启。
-4. 第一次编译完成后自动创建 `Assets/Game/Scenes/PhaseOne.unity`。若自动构建未发生，执行菜单 **Orange Cat → Build Phase 0-1 Scene**。
-5. 打开 PhaseOne，点击 Play。A/D 或左右方向键移动，Space 跳跃，Left Shift 翻滚，Esc 暂停，F1 切换 HUD。手柄左摇杆移动，South 跳跃、East 翻滚、Start 暂停。
-6. J / 手柄 West（攻击）、K / Left Shoulder（格挡）、E / North（交互）只配置输入，当前不驱动动作。切换测试角色时删除场景中的 HaoJu，再放入 JiangZhua Prefab，并将 GameManager 的 input、CameraFollow2D 的 target 改指新角色；单角色测试，不能同时放两名玩家。
+**哈橘**能连按三次 J 打出低扫、上挑和双爪下劈，也能哈气打出近距离声波。**姜爪**可以架爪格挡，触发完美格挡后按 J 反击。标题界面按 M 可切换音乐。
 
-工具建立 GameManager、相机及跟随引用、角色数据、输入引用、HUD 引用、地面和两块跳跃平台。两个 Prefab 均包含完整角色引用，使用相同初始参数、不同名称和占位颜色。支持重复执行：场景已存在时只打开它，不覆盖场景、Prefab 或角色数据。需要重新生成时先自行备份并移动旧 PhaseOne 场景。已有配置和资产不会被默认重建覆盖。
+## 五关路线
 
-## 目录与职责
+| 关卡 | 要做什么 |
+| --- | --- |
+| [01 雨夜仓库](docs/warehouse01.md) | 越过蒸汽井盖、地刺和工业风轮，击败流浪老鼠。 |
+| [02 冷库输送线](docs/cold_storage02.md) | 借输送带移动，躲开飞虫俯冲，打通装卸出口。 |
+| [03 装卸升降台](docs/loading_bay03.md) | 打断笑肚怪的肚顶，或从它身边绕过。呼叫货梯，乘梯到顶后自动前往屋顶。 |
+| [04 屋顶检修区](docs/rooftop04.md) | 跳过排汽口，开启 A、B 两处电闸，再从绿色出口撤离。 |
+| [05 罐头守卫](docs/can_guard05.md) | 读冲撞和砸地预警，抓住收招空档反打。拿到最后一罐后自动进入结局。 |
 
-- `Assets/Game/Scripts/Input`：InputActionAsset 的独立实例；Update 采样，按键边沿排队至 FixedUpdate 消费，暂停清空。
-- `Scripts/Player/PlayerMotor2D`：接地投射、水平加减速、朝向、跳跃和物理速度。只在 FixedUpdate 驱动物理；公开 Simulate 是测试入口，外部不应同时驱动。
-- `Scripts/Player/PlayerStateMachine`：纯 C# FSM，维护状态和状态时钟；Animator 不参与状态决策。
-- `CharacterDefinition`：角色可调数值；`AttackDefinition`：Phase 2 参数契约，尚无执行器。
-- `Scripts/Core`：暂停管理、相机；角色 HUD 为独立组件。
-- `Editor`：层、输入模式及场景/占位资产生成工具。
-- `Scenes / Prefabs / Data / Art / Tests`：场景、预制体、配置、占位图和测试分别管理；场景和 Prefab 已由 Editor 实际生成。
+第一、二、四关通关后按 **E** 续关。倒地时可重试当前关或返回标题。通关后可选择再开一局，也可以回到双猫跳舞的标题界面。
 
-## 状态规则
+| 屋顶机房 | 结局 |
+| --- | --- |
+| ![哈橘在屋顶机房面对罐头守卫](docs/CanGuard05.png) | ![黎明码头上的哈橘、姜爪和最后一罐](docs/EndingScreen.png) |
 
-| 当前 | 目标 | 条件 |
-|---|---|---|
-| Free | Rolling | 本物理帧收到翻滚，且接地；方向在进入时锁定 |
-| Rolling | Free | 状态经过时间达到 0.42 秒 |
-| 任意非 Dead | Hurt / Dead | FSM 扩展接口；当前没有伤害调用者 |
-| Free | Attacking / Guarding | FSM 扩展接口；当前未连接输入 |
-| Attacking / Guarding / Hurt | Free | 未来执行器显式请求；当前无自动退出计时 |
-| Dead | 任意 | 拒绝；重生应创建新角色实例 |
+## 工程结构与测试
 
-非 Free 状态不接受跳跃及普通水平移动；Rolling 以 9 units/s 锁定水平速度，仍受重力与地面实体碰撞影响。无敌为 `[0.10,0.30)` 秒逻辑属性，当前尚无伤害系统消费它；不会关闭身体碰撞器。时间按固定物理帧采样，默认步长 .02 秒，不应依赖渲染帧判断无敌边界。
+| 目录 | 内容 |
+| --- | --- |
+| `Assets/Game/Scenes` | 标题、五关、结局及开发测试场景 |
+| `Assets/Game/Scripts` | 角色状态机、战斗判定、敌人、机关和关卡流程 |
+| `Assets/Game/Prefabs` · `Assets/Game/Data` | 角色和敌人预制体、攻击与角色数值、输入配置 |
+| `Assets/Game/Art` · `Assets/Game/Audio` | 游戏内像素素材、音乐和音效 |
+| `Assets/Game/Editor` · `Assets/Game/Tests` | 场景构建工具和 Unity 测试 |
+| `ArtSource` · `docs` | 美术源图、预览及关卡说明 |
 
-接地仅接受 Ground 层、非 Trigger、向上法线 > .65，且上升速度 <= .1；身体向下投射 .06。接地重置跳跃计数；离地后 .10 秒仍可地面跳；超时消耗地面跳额度，保留一次空中跳。按下缓冲 .12 秒，条件允许时执行；二段跳立即重置竖直速度。松开跳跃仅截断一次上升速度，下降提高重力。可调参数均在 CharacterDefinition。
+输入由 Unity Input System 读取，角色移动和攻击判定使用固定物理步长。角色状态机与像素动画分开，攻击判定、受击判定以及角色参数分别配置。
 
-层：Ground、Player、Enemy、PlayerHitbox、EnemyHitbox、Hazard。工具从空闲 User Layer 分配，不能依赖固定数字。PlayerHitbox 仅与 Enemy 交互，EnemyHitbox 仅与 Player 交互，双方身体不互撞；Hazard 暂保留默认矩阵，Phase 2 再按触发器协议落实。没有提前创建空 Hitbox/Hurtbox 行为。
+在 Unity 打开 **Window → General → Test Runner**，分别运行 **EditMode** 和 **PlayMode**。PlayMode 用例覆盖角色控制、攻击判定、关卡推进、标题启动和拾罐后进入结局。保存手头场景后再运行测试，因为用例会切换场景。
 
-## 测试与验收
+更多实现细节见[像素角色动作](docs/pixel_motion.md)、[标题界面](docs/title_screen.md)和[结局界面](docs/ending_screen.md)。
 
-Window → General → Test Runner：分别 Run All EditMode / PlayMode。运行 PlayMode 前必须先构建场景，使 PhaseOne 出现在 Build Settings。测试会替换当前场景，先保存工作。
+## 素材说明
 
-- EditMode：无敌窗口四个边界、翻滚和跳跃时间配置、FSM 终态/中断/计时重置。
-- PlayMode：加载生成场景、真实物理落地，然后暂停自动物理时钟，通过生产 Simulate 入口检查翻滚速度/无敌/身体碰撞器、翻滚结束、最多二次跳跃。后半段是确定性控制器 tick，并非完整交互式运动测试。
-- 手动验收：左右加速和停步、两种角色朝向、长按与短按跳跃高度、二段跳上平台、平台边缘 .10 秒宽限、落地前 .12 秒缓冲、空中翻滚被拒绝、翻滚撞墙/走出平台、暂停期间输入清空、F1 HUD 与手柄。
-- 实际测试结果见 VALIDATION.md 和 TestResults 下的 XML 及日志。
-
-## Phase 2 具体待办
-
-1. 实现独立 Hitbox / Hurtbox、阵营过滤、单次攻击去重、伤害上下文和生命值；在 Hurtbox 入口读取 Invincible，保留身体碰撞。
-2. 使用 AttackDefinition 实现前摇/生效/后摇，接入 Attacking 状态和输入，明确空中攻击及翻滚取消策略。
-3. 接入 Guarding：朝向判断、格挡窗口、反击窗口和反馈；配置伤害/硬直数据。
-4. 实现 Hurt / Dead 的受击、击退、退出条件与死亡重置流程；确定中断优先级。
-5. 增加边缘跳跃、跳跃缓冲、短跳高度、翻滚墙体碰撞、暂停恢复、手柄输入的实际物理 PlayMode 测试，并先在 Unity 完成当前阶段验收。
-6. 待用户授权后才进入机关、敌人 FSM、关卡及 Boss；本轮没有实现这些内容。
+美术源图及生成记录见各关卡和界面的说明。第一、二、四关和结局使用项目制作的合成器音乐。标题、第三关和 Boss 关使用项目作者提供的音频片段。仓库目前没有单独的许可证文件。
