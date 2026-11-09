@@ -76,6 +76,11 @@ public sealed class CanGuardPlayModeTests {
         Place(player, stage.Goal.transform.position.x);
         yield return Until(() => stage.Cleared, 25, "Collect the last can");
         Assert.That(player.GetComponent<PlayerInputReader>().enabled, Is.False);
+        yield return Until(() => SceneManager.GetActiveScene().name == "EndingScreen", 125,
+            "Collecting the last can automatically opens the ending.");
+        Assert.That(Object.FindFirstObjectByType<EndingScreen>(), Is.Not.Null);
+        Assert.That(GameObject.Find("Can Guard BGM"), Is.Null);
+        Assert.That(GameObject.Find("Ending BGM").GetComponent<AudioSource>().loop, Is.True);
     }
 
     static void HitBoss(CanGuardBrain boss, PlayerMotor2D player, float amount) {

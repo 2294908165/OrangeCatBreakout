@@ -55,7 +55,8 @@ public static class WarehouseBuilder {
         StageMusicBuilder.Configure(scene);
         if (!EditorSceneManager.SaveScene(scene)) throw new InvalidOperationException("Could not save Warehouse01.");
         var scenes = EditorBuildSettings.scenes.Where(item => item.path != ScenePath).ToList();
-        scenes.Insert(0, new EditorBuildSettingsScene(ScenePath, true));
+        int titleOffset = scenes.Count > 0 && scenes[0].path == TitleScreenBuilder.ScenePath ? 1 : 0;
+        scenes.Insert(titleOffset, new EditorBuildSettingsScene(ScenePath, true));
         EditorBuildSettings.scenes = scenes.ToArray();
         AssetDatabase.SaveAssets();
         Debug.Log("Warehouse01 ready: cross three obstacles, defeat the stray rat, and collect the last can.");

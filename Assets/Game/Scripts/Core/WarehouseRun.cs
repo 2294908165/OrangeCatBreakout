@@ -8,7 +8,7 @@ public sealed class WarehouseRun : MonoBehaviour {
     const string LoadingBayScene = "LoadingBay03";
     const string RooftopScene = "Rooftop04";
     const string BossScene = "CanGuard05";
-    const string FirstScene = "Warehouse01";
+    const string EndingScene = "EndingScreen";
     const float CargoExitDelay = .8f;
     [SerializeField] PlayerMotor2D haoJu, jiangZhua;
     [SerializeField] Transform spawn;
@@ -26,7 +26,7 @@ public sealed class WarehouseRun : MonoBehaviour {
     InputAction interact;
     bool isJiangZhua;
     bool loading;
-    float cargoExitElapsed;
+    float clearElapsed, defeatElapsed;
     static string nextStage;
     static bool nextStageJiang;
 
@@ -43,7 +43,7 @@ public sealed class WarehouseRun : MonoBehaviour {
     public RooftopEscape Rooftop => rooftop;
     public CanGuardBrain Boss => boss;
     public bool Cleared => IsRooftop ? rooftop.Escaped : IsLoadingBay ? cargo.Escaped : goal.Collected;
-    string NextScene => IsBoss ? FirstScene : IsRooftop ? BossScene : IsLoadingBay ? RooftopScene
+    string NextScene => IsBoss ? EndingScene : IsRooftop ? BossScene : IsLoadingBay ? RooftopScene
         : IsColdStorage ? LoadingBayScene : ColdStorageScene;
     bool EnemyEngaged => (rat != null && rat.Engaged) || (fly != null && fly.Engaged) ||
         (bellyLaugh != null && bellyLaugh.Engaged) || (boss != null && boss.Engaged);
@@ -109,6 +109,7 @@ public sealed class WarehouseRun : MonoBehaviour {
         isJiangZhua = jiang;
         Player = Instantiate(jiang ? jiangZhua : haoJu, spawn.position, spawn.rotation);
         life = Player.GetComponent<Health>();
+        defeatElapsed = 0;
         combat = Player.GetComponent<PlayerCombat>();
         if (fly != null) fly.Track(life);
         if (rat != null) rat.Track(life);
@@ -126,11 +127,21 @@ public sealed class WarehouseRun : MonoBehaviour {
     void Update() {
         var keyboard = Keyboard.current;
         if (keyboard != null && keyboard.rKey.wasPressedThisFrame) Restart();
+        else if (life.IsDead) {
+            defeatElapsed += Time.unscaledDeltaTime;
+            if (defeatElapsed < .55f) return;
+            var pad = Gamepad.current;
+            if ((keyboard != null && keyboard.tKey.wasPressedThisFrame) ||
+                (pad != null && pad.buttonEast.wasPressedThisFrame) || MenuCanvas.Clicked(DefeatMenu.TitleArea))
+                LoadStage("TitleScreen");
+            else if ((pad != null && pad.buttonSouth.wasPressedThisFrame) || MenuCanvas.Clicked(DefeatMenu.RetryArea))
+                Restart();
+        }
         else if (Cleared) {
-            if (IsLoadingBay) cargoExitElapsed += Time.deltaTime;
+            if (IsLoadingBay || IsBoss) clearElapsed += Time.deltaTime;
             if ((keyboard != null && keyboard.eKey.wasPressedThisFrame) ||
                 (Gamepad.current != null && Gamepad.current.buttonNorth.wasPressedThisFrame) ||
-                (IsLoadingBay && cargoExitElapsed >= CargoExitDelay)) ContinueStage();
+                ((IsLoadingBay || IsBoss) && clearElapsed >= CargoExitDelay)) ContinueStage();
         } else if (!manager.IsPaused && interact.WasPressedThisFrame()) {
             if (IsLoadingBay) cargo.TryCall();
             if (IsRooftop) rooftop.Interact();
@@ -151,6 +162,10 @@ public sealed class WarehouseRun : MonoBehaviour {
 
     void OnGUI() {
         if (life == null) return;
+        if (life.IsDead && defeatElapsed >= .55f) {
+            DefeatMenu.Draw();
+            return;
+        }
         GUILayout.BeginArea(new Rect(12, 12, 322, 192), GUI.skin.box);
         GUILayout.Label(IsBoss ? "05  /  CAN GUARD" : IsRooftop ? "04  /  ROOFTOP MAINTENANCE" : IsLoadingBay ? "03  /  LOADING BAY"
             : IsColdStorage ? "02  /  COLD STORAGE" : "01  /  RAIN WAREHOUSE");
@@ -194,7 +209,7 @@ public sealed class WarehouseRun : MonoBehaviour {
             if (GUILayout.Button("HaoJu")) SelectCharacter(false);
             if (GUILayout.Button("JiangZhua")) SelectCharacter(true);
         }
-        if (Cleared && GUILayout.Button(IsBoss ? "Play again (E)" : "Next stage (E)")) ContinueStage();
+        if (Cleared && GUILayout.Button(IsBoss ? "Ending (E)" : "Next stage (E)")) ContinueStage();
         if (GUILayout.Button("Restart (R)")) Restart();
         GUILayout.EndHorizontal();
         GUILayout.EndArea();

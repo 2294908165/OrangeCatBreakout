@@ -1,5 +1,7 @@
 # 橘猫突围：最后一罐
 
+**从标题界面开始**：在 Unity 打开 `Assets/Game/Scenes/TitleScreen.unity`，点 Play，再点「开始游戏」进入第一关。标题界面支持 Enter、空格和手柄南键，M 切换音乐。详见 `docs/title_screen.md`。
+
 **完整试玩路线**从 `Assets/Game/Scenes/Warehouse01.unity` 开始。第一、二、四关通关后按 **E** 续关。第三关乘货梯到顶后自动进入第四关。第四关在屋顶给两处电闸通电，撤离后进入 **第五关·罐头守卫**。击败守卫并拿到最后一罐即通关。详见 `docs/rooftop04.md` 和 `docs/can_guard05.md`。
 
 **第三关·装卸升降台**可从第二关通关后按 **E** 进入，或直接打开 `Assets/Game/Scenes/LoadingBay03.unity`。跨过地刺后会遇到笑肚怪。在右侧按钮旁按 **E** 呼叫货梯，登梯撤离。见 `docs/loading_bay03.md`。
