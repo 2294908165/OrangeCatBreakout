@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="5" result="Passed" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:34Z" duration="2.019087">
+  <test-suite type="TestSuite" id="1084" name="OrangeCatBreakout" fullname="OrangeCatBreakout" runstate="Runnable" testcasecount="58" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:34Z" duration="2.019087" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1079" name="OrangeCat.PlayMode.dll" fullname="E:/codex work space/2026-11-06/unity-6-3-lts-c-2d/work/Phase2Unity/Library/ScriptAssemblies/OrangeCat.PlayMode.dll" runstate="Runnable" testcasecount="58" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:34Z" duration="2.012294" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="18708" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1080" name="OrangeCat" fullname="OrangeCat" runstate="Runnable" testcasecount="58" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:34Z" duration="2.011703" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1081" name="Tests" fullname="OrangeCat.Tests" runstate="Runnable" testcasecount="58" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:34Z" duration="2.011341" total="5" passed="5" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1010" name="ClawAudioVerification" fullname="OrangeCat.Tests.ClawAudioVerification" classname="OrangeCat.Tests.ClawAudioVerification" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:32Z" duration="0.306425" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1011" name="EachClawPlaysOnceOnActiveEvenWithoutAHit" fullname="OrangeCat.Tests.ClawAudioVerification.EachClawPlaysOnceOnActiveEvenWithoutAHit" methodname="EachClawPlaysOnceOnActiveEvenWithoutAHit" classname="OrangeCat.Tests.ClawAudioVerification" runstate="Runnable" seed="2071223617" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:32Z" duration="0.298445" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1042" name="HissSkillTests" fullname="OrangeCat.Tests.HissSkillTests" classname="OrangeCat.Tests.HissSkillTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:34Z" duration="1.637602" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1043" name="HissHasOneMirroredLocalHitAndCooldown" fullname="OrangeCat.Tests.HissSkillTests.HissHasOneMirroredLocalHitAndCooldown" methodname="HissHasOneMirroredLocalHitAndCooldown" classname="OrangeCat.Tests.HissSkillTests" runstate="Runnable" seed="1205880092" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:32Z" duration="0.027937" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="RealQInputCastsOnceEvenWhenHeld" fullname="OrangeCat.Tests.HissSkillTests.RealQInputCastsOnceEvenWhenHeld" methodname="RealQInputCastsOnceEvenWhenHeld" classname="OrangeCat.Tests.HissSkillTests" runstate="Runnable" seed="588579211" result="Passed" start-time="2026-11-08 09:13:32Z" end-time="2026-11-08 09:13:34Z" duration="1.607970" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1052" name="PixelMotionTests" fullname="OrangeCat.Tests.PixelMotionTests" classname="OrangeCat.Tests.PixelMotionTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-08 09:13:34Z" end-time="2026-11-08 09:13:34Z" duration="0.065335" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1053" name="HaoJuPosesFollowRunRollAndAllThreeClawWindows" fullname="OrangeCat.Tests.PixelMotionTests.HaoJuPosesFollowRunRollAndAllThreeClawWindows" methodname="HaoJuPosesFollowRunRollAndAllThreeClawWindows" classname="OrangeCat.Tests.PixelMotionTests" runstate="Runnable" seed="515165042" result="Passed" start-time="2026-11-08 09:13:34Z" end-time="2026-11-08 09:13:34Z" duration="0.032270" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1054" name="JiangZhuaGuardAndCounterSelectDistinctPoses" fullname="OrangeCat.Tests.PixelMotionTests.JiangZhuaGuardAndCounterSelectDistinctPoses" methodname="JiangZhuaGuardAndCounterSelectDistinctPoses" classname="OrangeCat.Tests.PixelMotionTests" runstate="Runnable" seed="1022959099" result="Passed" start-time="2026-11-08 09:13:34Z" end-time="2026-11-08 09:13:34Z" duration="0.032148" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: E:\codex work space\2026-11-06\unity-6-3-lts-c-2d\work\Phase2Unity/ClawAudioPlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="3" result="Passed" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-08 09:01:46Z" end-time="2026-11-08 09:01:53Z" duration="6.9561686">
+  <test-suite type="TestSuite" id="1080" name="OrangeCatBreakout" fullname="OrangeCatBreakout" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-08 09:01:46Z" end-time="2026-11-08 09:01:53Z" duration="6.956169" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1075" name="OrangeCat.PlayMode.dll" fullname="E:/codex work space/2026-11-06/unity-6-3-lts-c-2d/work/Phase2Unity/Library/ScriptAssemblies/OrangeCat.PlayMode.dll" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-08 09:01:46Z" end-time="2026-11-08 09:01:53Z" duration="6.949622" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="51964" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1076" name="OrangeCat" fullname="OrangeCat" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-08 09:01:46Z" end-time="2026-11-08 09:01:53Z" duration="6.949041" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1077" name="Tests" fullname="OrangeCat.Tests" runstate="Runnable" testcasecount="56" result="Passed" start-time="2026-11-08 09:01:46Z" end-time="2026-11-08 09:01:53Z" duration="6.948663" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1003" name="CanGuardMusicVerification" fullname="OrangeCat.Tests.CanGuardMusicVerification" classname="OrangeCat.Tests.CanGuardMusicVerification" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-08 09:01:46Z" end-time="2026-11-08 09:01:47Z" duration="1.130923" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="MusicStartsLoopsAndStopsWithBossScene" fullname="OrangeCat.Tests.CanGuardMusicVerification.MusicStartsLoopsAndStopsWithBossScene" methodname="MusicStartsLoopsAndStopsWithBossScene" classname="OrangeCat.Tests.CanGuardMusicVerification" runstate="Runnable" seed="1409089163" result="Passed" start-time="2026-11-08 09:01:46Z" end-time="2026-11-08 09:01:47Z" duration="1.122647" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1005" name="CanGuardPlayModeTests" fullname="OrangeCat.Tests.CanGuardPlayModeTests" classname="OrangeCat.Tests.CanGuardPlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-08 09:01:47Z" end-time="2026-11-08 09:01:53Z" duration="5.816005" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1006" name="ChargeHitsOnceAndSlamWavesCanBeJumped" fullname="OrangeCat.Tests.CanGuardPlayModeTests.ChargeHitsOnceAndSlamWavesCanBeJumped" methodname="ChargeHitsOnceAndSlamWavesCanBeJumped" classname="OrangeCat.Tests.CanGuardPlayModeTests" runstate="Runnable" seed="1098474122" result="Passed" start-time="2026-11-08 09:01:47Z" end-time="2026-11-08 09:01:53Z" duration="5.619539" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1007" name="ClawFinishesGuardAndLastCanCompletesTheDemo" fullname="OrangeCat.Tests.CanGuardPlayModeTests.ClawFinishesGuardAndLastCanCompletesTheDemo" methodname="ClawFinishesGuardAndLastCanCompletesTheDemo" classname="OrangeCat.Tests.CanGuardPlayModeTests" runstate="Runnable" seed="722135657" result="Passed" start-time="2026-11-08 09:01:53Z" end-time="2026-11-08 09:01:53Z" duration="0.188198" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: E:\codex work space\2026-11-06\unity-6-3-lts-c-2d\work\Phase2Unity/CanGuardMusicPlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="52" result="Passed" total="52" passed="52" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-07 13:48:39Z" end-time="2026-11-07 13:49:41Z" duration="62.253902">
+  <test-suite type="TestSuite" id="1075" name="OrangeCatBreakout" fullname="OrangeCatBreakout" runstate="Runnable" testcasecount="52" result="Passed" start-time="2026-11-07 13:48:39Z" end-time="2026-11-07 13:49:41Z" duration="62.253902" total="52" passed="52" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1070" name="OrangeCat.PlayMode.dll" fullname="E:/codex work space/2026-11-06/unity-6-3-lts-c-2d/work/Phase2Unity/Library/ScriptAssemblies/OrangeCat.PlayMode.dll" runstate="Runnable" testcasecount="52" result="Passed" start-time="2026-11-07 13:48:39Z" end-time="2026-11-07 13:49:41Z" duration="62.247282" total="52" passed="52" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="59876" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1071" name="OrangeCat" fullname="OrangeCat" runstate="Runnable" testcasecount="52" result="Passed" start-time="2026-11-07 13:48:39Z" end-time="2026-11-07 13:49:41Z" duration="62.246926" total="52" passed="52" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1072" name="Tests" fullname="OrangeCat.Tests" runstate="Runnable" testcasecount="52" result="Passed" start-time="2026-11-07 13:48:39Z" end-time="2026-11-07 13:49:41Z" duration="62.243674" total="52" passed="52" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="AirJumpPoseTests" fullname="OrangeCat.Tests.AirJumpPoseTests" classname="OrangeCat.Tests.AirJumpPoseTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:48:39Z" end-time="2026-11-07 13:48:41Z" duration="1.638067" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1002" name="BothCatsReuseRollPosesOnSecondSpacePressWithoutScaling" fullname="OrangeCat.Tests.AirJumpPoseTests.BothCatsReuseRollPosesOnSecondSpacePressWithoutScaling" methodname="BothCatsReuseRollPosesOnSecondSpacePressWithoutScaling" classname="OrangeCat.Tests.AirJumpPoseTests" runstate="Runnable" seed="210754932" result="Passed" start-time="2026-11-07 13:48:39Z" end-time="2026-11-07 13:48:41Z" duration="1.630256" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1003" name="CanGuardPlayModeTests" fullname="OrangeCat.Tests.CanGuardPlayModeTests" classname="OrangeCat.Tests.CanGuardPlayModeTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 13:48:41Z" end-time="2026-11-07 13:48:46Z" duration="5.753117" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="ChargeHitsOnceAndSlamWavesCanBeJumped" fullname="OrangeCat.Tests.CanGuardPlayModeTests.ChargeHitsOnceAndSlamWavesCanBeJumped" methodname="ChargeHitsOnceAndSlamWavesCanBeJumped" classname="OrangeCat.Tests.CanGuardPlayModeTests" runstate="Runnable" seed="1116017606" result="Passed" start-time="2026-11-07 13:48:41Z" end-time="2026-11-07 13:48:46Z" duration="5.563877" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1005" name="ClawFinishesGuardAndLastCanCompletesTheDemo" fullname="OrangeCat.Tests.CanGuardPlayModeTests.ClawFinishesGuardAndLastCanCompletesTheDemo" methodname="ClawFinishesGuardAndLastCanCompletesTheDemo" classname="OrangeCat.Tests.CanGuardPlayModeTests" runstate="Runnable" seed="1912678728" result="Passed" start-time="2026-11-07 13:48:46Z" end-time="2026-11-07 13:48:46Z" duration="0.188549" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1006" name="ColdStoragePlayModeTests" fullname="OrangeCat.Tests.ColdStoragePlayModeTests" classname="OrangeCat.Tests.ColdStoragePlayModeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-07 13:48:46Z" end-time="2026-11-07 13:48:51Z" duration="4.825913" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1007" name="BeltsCarryTheIdleCatStopAtTheSeamAndPreserveTakeoffMomentum" fullname="OrangeCat.Tests.ColdStoragePlayModeTests.BeltsCarryTheIdleCatStopAtTheSeamAndPreserveTakeoffMomentum" methodname="BeltsCarryTheIdleCatStopAtTheSeamAndPreserveTakeoffMomentum" classname="OrangeCat.Tests.ColdStoragePlayModeTests" runstate="Runnable" seed="368309968" result="Passed" start-time="2026-11-07 13:48:46Z" end-time="2026-11-07 13:48:47Z" duration="0.509050" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1008" name="FlyingEnemyWarnsLocksItsDiveAndCanHurtAnUnguardedCat" fullname="OrangeCat.Tests.ColdStoragePlayModeTests.FlyingEnemyWarnsLocksItsDiveAndCanHurtAnUnguardedCat" methodname="FlyingEnemyWarnsLocksItsDiveAndCanHurtAnUnguardedCat" classname="OrangeCat.Tests.ColdStoragePlayModeTests" runstate="Runnable" seed="431606483" result="Passed" start-time="2026-11-07 13:48:47Z" end-time="2026-11-07 13:48:48Z" duration="0.948110" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1009" name="JiangZhuaCanParryTheDiveCounterAndClearTheLoadingExit" fullname="OrangeCat.Tests.ColdStoragePlayModeTests.JiangZhuaCanParryTheDiveCounterAndClearTheLoadingExit" methodname="JiangZhuaCanParryTheDiveCounterAndClearTheLoadingExit" classname="OrangeCat.Tests.ColdStoragePlayModeTests" runstate="Runnable" seed="811324430" result="Passed" start-time="2026-11-07 13:48:48Z" end-time="2026-11-07 13:48:51Z" duration="3.367803" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1010" name="CombatTestCases" fullname="OrangeCat.Tests.CombatTestCases" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" testcasecount="23" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:53Z" duration="1.376383" total="23" passed="23" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1011" name="T01_OneAttackOnlyHitsOnce" fullname="OrangeCat.Tests.CombatTestCases.T01_OneAttackOnlyHitsOnce" methodname="T01_OneAttackOnlyHitsOnce" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="622246027" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.027125" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1012" name="T02_OneAttackHitsTwoTargets" fullname="OrangeCat.Tests.CombatTestCases.T02_OneAttackHitsTwoTargets" methodname="T02_OneAttackHitsTwoTargets" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1780467612" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.027284" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1013" name="T03_OverlappingHurtboxesShareOneHealth" fullname="OrangeCat.Tests.CombatTestCases.T03_OverlappingHurtboxesShareOneHealth" methodname="T03_OverlappingHurtboxesShareOneHealth" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="911064660" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.029993" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1014" name="T04_OnlyActiveWindowCanHit" fullname="OrangeCat.Tests.CombatTestCases.T04_OnlyActiveWindowCanHit" methodname="T04_OnlyActiveWindowCanHit" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="135380528" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.028694" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1015" name="T05_ThreeClawsUseFreshInstancesAndCannotBufferAFourth" fullname="OrangeCat.Tests.CombatTestCases.T05_ThreeClawsUseFreshInstancesAndCannotBufferAFourth" methodname="T05_ThreeClawsUseFreshInstancesAndCannotBufferAFourth" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="2084487962" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.029523" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1016" name="T06_SinglePressDoesNotAutoCombo" fullname="OrangeCat.Tests.CombatTestCases.T06_SinglePressDoesNotAutoCombo" methodname="T06_SinglePressDoesNotAutoCombo" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="854354369" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.028117" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1017" name="T07_RollCancelOnlyInLateRecovery" fullname="OrangeCat.Tests.CombatTestCases.T07_RollCancelOnlyInLateRecovery" methodname="T07_RollCancelOnlyInLateRecovery" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="34344578" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.029154" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1018" name="T08_RollIFramesIgnoreDamage" fullname="OrangeCat.Tests.CombatTestCases.T08_RollIFramesIgnoreDamage" methodname="T08_RollIFramesIgnoreDamage" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="411657031" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.028963" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1019" name="T09_RollStartupTakesDamage" fullname="OrangeCat.Tests.CombatTestCases.T09_RollStartupTakesDamage" methodname="T09_RollStartupTakesDamage" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="173073183" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:51Z" duration="0.028563" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1020" name="T10_FrontNormalGuardKeepsFractionalHealth" fullname="OrangeCat.Tests.CombatTestCases.T10_FrontNormalGuardKeepsFractionalHealth" methodname="T10_FrontNormalGuardKeepsFractionalHealth" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="950606189" result="Passed" start-time="2026-11-07 13:48:51Z" end-time="2026-11-07 13:48:52Z" duration="0.030029" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1021" name="T11_RearAttackBypassesGuard" fullname="OrangeCat.Tests.CombatTestCases.T11_RearAttackBypassesGuard" methodname="T11_RearAttackBypassesGuard" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1173291745" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.030717" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1022" name="T12_TrainingStrikeTriggersPerfectGuardAndStagger" fullname="OrangeCat.Tests.CombatTestCases.T12_TrainingStrikeTriggersPerfectGuardAndStagger" methodname="T12_TrainingStrikeTriggersPerfectGuardAndStagger" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="201262651" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.028639" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1023" name="T13_HeldGuardDoesNotRefreshPerfectWindow" fullname="OrangeCat.Tests.CombatTestCases.T13_HeldGuardDoesNotRefreshPerfectWindow" methodname="T13_HeldGuardDoesNotRefreshPerfectWindow" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1624481794" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.028493" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1024" name="T14_CounterConsumesWindowAndDealsThree" fullname="OrangeCat.Tests.CombatTestCases.T14_CounterConsumesWindowAndDealsThree" methodname="T14_CounterConsumesWindowAndDealsThree" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1924349784" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.028763" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1025" name="T15_ExpiredCounterFallsBackToNormalAttack" fullname="OrangeCat.Tests.CombatTestCases.T15_ExpiredCounterFallsBackToNormalAttack" methodname="T15_ExpiredCounterFallsBackToNormalAttack" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="235959465" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.029084" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1026" name="T16_DeathIsTerminalAndRaisedOnce" fullname="OrangeCat.Tests.CombatTestCases.T16_DeathIsTerminalAndRaisedOnce" methodname="T16_DeathIsTerminalAndRaisedOnce" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="990713318" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.028318" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1027" name="T17_DeathCancelsInFlightAttack" fullname="OrangeCat.Tests.CombatTestCases.T17_DeathCancelsInFlightAttack" methodname="T17_DeathCancelsInFlightAttack" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1781432438" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.028710" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1028" name="T18_SwitchCharacterRebuildsCombatAndInput" fullname="OrangeCat.Tests.CombatTestCases.T18_SwitchCharacterRebuildsCombatAndInput" methodname="T18_SwitchCharacterRebuildsCombatAndInput" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1978198165" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.029685" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1029" name="T19_HurtInterruptsThenRestoresMovementAndAttack" fullname="OrangeCat.Tests.CombatTestCases.T19_HurtInterruptsThenRestoresMovementAndAttack" methodname="T19_HurtInterruptsThenRestoresMovementAndAttack" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1131429381" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.027754" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1030" name="T20_PauseFreezesAttackAndReloadClearsState" fullname="OrangeCat.Tests.CombatTestCases.T20_PauseFreezesAttackAndReloadClearsState" methodname="T20_PauseFreezesAttackAndReloadClearsState" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="884307069" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.139902" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1031" name="T21_PhysicsStepCanCrossEntireActiveWindow" fullname="OrangeCat.Tests.CombatTestCases.T21_PhysicsStepCanCrossEntireActiveWindow" methodname="T21_PhysicsStepCanCrossEntireActiveWindow" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1639327214" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.028083" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1032" name="T22_LeftFacingAttackAndDeadDummyReset" fullname="OrangeCat.Tests.CombatTestCases.T22_LeftFacingAttackAndDeadDummyReset" methodname="T22_LeftFacingAttackAndDeadDummyReset" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1925972478" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:52Z" duration="0.029200" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1033" name="T23_KeyboardAttackUsesRealUpdateAndFixedUpdate" fullname="OrangeCat.Tests.CombatTestCases.T23_KeyboardAttackUsesRealUpdateAndFixedUpdate" methodname="T23_KeyboardAttackUsesRealUpdateAndFixedUpdate" classname="OrangeCat.Tests.CombatTestCases" runstate="Runnable" seed="1469465330" result="Passed" start-time="2026-11-07 13:48:52Z" end-time="2026-11-07 13:48:53Z" duration="0.628095" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1034" name="FirstJumpPoseTests" fullname="OrangeCat.Tests.FirstJumpPoseTests" classname="OrangeCat.Tests.FirstJumpPoseTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:48:53Z" end-time="2026-11-07 13:48:54Z" duration="1.659290" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1035" name="BothCatsRiseFallAndSplashOnLanding" fullname="OrangeCat.Tests.FirstJumpPoseTests.BothCatsRiseFallAndSplashOnLanding" methodname="BothCatsRiseFallAndSplashOnLanding" classname="OrangeCat.Tests.FirstJumpPoseTests" runstate="Runnable" seed="2025028339" result="Passed" start-time="2026-11-07 13:48:53Z" end-time="2026-11-07 13:48:54Z" duration="1.658813" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1036" name="HissSkillTests" fullname="OrangeCat.Tests.HissSkillTests" classname="OrangeCat.Tests.HissSkillTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 13:48:54Z" end-time="2026-11-07 13:48:56Z" duration="1.617763" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1037" name="HissHasOneMirroredLocalHitAndCooldown" fullname="OrangeCat.Tests.HissSkillTests.HissHasOneMirroredLocalHitAndCooldown" methodname="HissHasOneMirroredLocalHitAndCooldown" classname="OrangeCat.Tests.HissSkillTests" runstate="Runnable" seed="1900697326" result="Passed" start-time="2026-11-07 13:48:54Z" end-time="2026-11-07 13:48:54Z" duration="0.013882" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1038" name="RealQInputCastsOnceEvenWhenHeld" fullname="OrangeCat.Tests.HissSkillTests.RealQInputCastsOnceEvenWhenHeld" methodname="RealQInputCastsOnceEvenWhenHeld" classname="OrangeCat.Tests.HissSkillTests" runstate="Runnable" seed="501152365" result="Passed" start-time="2026-11-07 13:48:54Z" end-time="2026-11-07 13:48:56Z" duration="1.603315" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1039" name="LoadingBayPlayModeTests" fullname="OrangeCat.Tests.LoadingBayPlayModeTests" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-07 13:48:56Z" end-time="2026-11-07 13:49:09Z" duration="13.148096" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1042" name="CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" methodname="CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="2087418349" result="Passed" start-time="2026-11-07 13:48:56Z" end-time="2026-11-07 13:49:05Z" duration="8.868553" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1041" name="CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" methodname="CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1330180497" result="Passed" start-time="2026-11-07 13:49:05Z" end-time="2026-11-07 13:49:08Z" duration="3.569250" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1040" name="MovingLiftCarriesTheCatAndLetsItJumpOff" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.MovingLiftCarriesTheCatAndLetsItJumpOff" methodname="MovingLiftCarriesTheCatAndLetsItJumpOff" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1848985669" result="Passed" start-time="2026-11-07 13:49:08Z" end-time="2026-11-07 13:49:09Z" duration="0.709602" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1043" name="PixelMotionTests" fullname="OrangeCat.Tests.PixelMotionTests" classname="OrangeCat.Tests.PixelMotionTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 13:49:09Z" end-time="2026-11-07 13:49:09Z" duration="0.062422" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1044" name="HaoJuPosesFollowRunRollAndAllThreeClawWindows" fullname="OrangeCat.Tests.PixelMotionTests.HaoJuPosesFollowRunRollAndAllThreeClawWindows" methodname="HaoJuPosesFollowRunRollAndAllThreeClawWindows" classname="OrangeCat.Tests.PixelMotionTests" runstate="Runnable" seed="1427195941" result="Passed" start-time="2026-11-07 13:49:09Z" end-time="2026-11-07 13:49:09Z" duration="0.030898" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="JiangZhuaGuardAndCounterSelectDistinctPoses" fullname="OrangeCat.Tests.PixelMotionTests.JiangZhuaGuardAndCounterSelectDistinctPoses" methodname="JiangZhuaGuardAndCounterSelectDistinctPoses" classname="OrangeCat.Tests.PixelMotionTests" runstate="Runnable" seed="1954390922" result="Passed" start-time="2026-11-07 13:49:09Z" end-time="2026-11-07 13:49:09Z" duration="0.030767" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1046" name="PixelPreviewTests" fullname="OrangeCat.Tests.PixelPreviewTests" classname="OrangeCat.Tests.PixelPreviewTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:49:09Z" end-time="2026-11-07 13:49:09Z" duration="0.031143" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1047" name="PixelSceneSpawnsBothSpritesAndUsesCombat" fullname="OrangeCat.Tests.PixelPreviewTests.PixelSceneSpawnsBothSpritesAndUsesCombat" methodname="PixelSceneSpawnsBothSpritesAndUsesCombat" classname="OrangeCat.Tests.PixelPreviewTests" runstate="Runnable" seed="26056838" result="Passed" start-time="2026-11-07 13:49:09Z" end-time="2026-11-07 13:49:09Z" duration="0.030675" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1048" name="PlayerDeathPoseTests" fullname="OrangeCat.Tests.PlayerDeathPoseTests" classname="OrangeCat.Tests.PlayerDeathPoseTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:49:09Z" end-time="2026-11-07 13:49:10Z" duration="0.906318" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1049" name="BothCatsCollapseAndOnlyLieDownOnTheFloor" fullname="OrangeCat.Tests.PlayerDeathPoseTests.BothCatsCollapseAndOnlyLieDownOnTheFloor" methodname="BothCatsCollapseAndOnlyLieDownOnTheFloor" classname="OrangeCat.Tests.PlayerDeathPoseTests" runstate="Runnable" seed="215122900" result="Passed" start-time="2026-11-07 13:49:09Z" end-time="2026-11-07 13:49:10Z" duration="0.905731" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1050" name="PlayerHitFeedbackTests" fullname="OrangeCat.Tests.PlayerHitFeedbackTests" classname="OrangeCat.Tests.PlayerHitFeedbackTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 13:49:10Z" end-time="2026-11-07 13:49:11Z" duration="0.979071" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1052" name="GuardAndRollDoNotShowAFalseHurtSpark" fullname="OrangeCat.Tests.PlayerHitFeedbackTests.GuardAndRollDoNotShowAFalseHurtSpark" methodname="GuardAndRollDoNotShowAFalseHurtSpark" classname="OrangeCat.Tests.PlayerHitFeedbackTests" runstate="Runnable" seed="885907599" result="Passed" start-time="2026-11-07 13:49:10Z" end-time="2026-11-07 13:49:10Z" duration="0.013291" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="RatAndHazardHitsShowHurtPoseAndImpactOnBothCats" fullname="OrangeCat.Tests.PlayerHitFeedbackTests.RatAndHazardHitsShowHurtPoseAndImpactOnBothCats" methodname="RatAndHazardHitsShowHurtPoseAndImpactOnBothCats" classname="OrangeCat.Tests.PlayerHitFeedbackTests" runstate="Runnable" seed="738695105" result="Passed" start-time="2026-11-07 13:49:10Z" end-time="2026-11-07 13:49:11Z" duration="0.965196" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1053" name="PlayerIdleTests" fullname="OrangeCat.Tests.PlayerIdleTests" classname="OrangeCat.Tests.PlayerIdleTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:49:11Z" end-time="2026-11-07 13:49:13Z" duration="2.129246" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1054" name="BothCatsIdleThroughFourFramesWithoutMovingAndFreezeWhenPaused" fullname="OrangeCat.Tests.PlayerIdleTests.BothCatsIdleThroughFourFramesWithoutMovingAndFreezeWhenPaused" methodname="BothCatsIdleThroughFourFramesWithoutMovingAndFreezeWhenPaused" classname="OrangeCat.Tests.PlayerIdleTests" runstate="Runnable" seed="1402729739" result="Passed" start-time="2026-11-07 13:49:11Z" end-time="2026-11-07 13:49:13Z" duration="2.128758" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1055" name="PlayerPhysicsTests" fullname="OrangeCat.Tests.PlayerPhysicsTests" classname="OrangeCat.Tests.PlayerPhysicsTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:49:13Z" end-time="2026-11-07 13:49:15Z" duration="1.588576" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1056" name="GeneratedSceneSupportsJumpAndRollWithoutDisablingBody" fullname="OrangeCat.Tests.PlayerPhysicsTests.GeneratedSceneSupportsJumpAndRollWithoutDisablingBody" methodname="GeneratedSceneSupportsJumpAndRollWithoutDisablingBody" classname="OrangeCat.Tests.PlayerPhysicsTests" runstate="Runnable" seed="1554605316" result="Passed" start-time="2026-11-07 13:49:13Z" end-time="2026-11-07 13:49:15Z" duration="1.588146" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1057" name="RooftopPlayModeTests" fullname="OrangeCat.Tests.RooftopPlayModeTests" classname="OrangeCat.Tests.RooftopPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:49:15Z" end-time="2026-11-07 13:49:20Z" duration="5.314080" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1058" name="PlayerCanCrossTheRoofPowerBothBreakersAndEscape" fullname="OrangeCat.Tests.RooftopPlayModeTests.PlayerCanCrossTheRoofPowerBothBreakersAndEscape" methodname="PlayerCanCrossTheRoofPowerBothBreakersAndEscape" classname="OrangeCat.Tests.RooftopPlayModeTests" runstate="Runnable" seed="918495650" result="Passed" start-time="2026-11-07 13:49:15Z" end-time="2026-11-07 13:49:20Z" duration="5.313618" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1059" name="WarehouseHazardTests" fullname="OrangeCat.Tests.WarehouseHazardTests" classname="OrangeCat.Tests.WarehouseHazardTests" runstate="Runnable" testcasecount="3" result="Passed" start-time="2026-11-07 13:49:20Z" end-time="2026-11-07 13:49:25Z" duration="4.926048" total="3" passed="3" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1062" name="FullRouteCanBeCrossedWithoutDamage" fullname="OrangeCat.Tests.WarehouseHazardTests.FullRouteCanBeCrossedWithoutDamage" methodname="FullRouteCanBeCrossedWithoutDamage" classname="OrangeCat.Tests.WarehouseHazardTests" runstate="Runnable" seed="1429384097" result="Passed" start-time="2026-11-07 13:49:20Z" end-time="2026-11-07 13:49:22Z" duration="2.087219" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1061" name="SpikesAndTurningFanHurtOnContact" fullname="OrangeCat.Tests.WarehouseHazardTests.SpikesAndTurningFanHurtOnContact" methodname="SpikesAndTurningFanHurtOnContact" classname="OrangeCat.Tests.WarehouseHazardTests" runstate="Runnable" seed="1399153" result="Passed" start-time="2026-11-07 13:49:22Z" end-time="2026-11-07 13:49:23Z" duration="0.709561" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1060" name="SteamWarnsBeforeItCanDealDamage" fullname="OrangeCat.Tests.WarehouseHazardTests.SteamWarnsBeforeItCanDealDamage" methodname="SteamWarnsBeforeItCanDealDamage" classname="OrangeCat.Tests.WarehouseHazardTests" runstate="Runnable" seed="499784014" result="Passed" start-time="2026-11-07 13:49:23Z" end-time="2026-11-07 13:49:25Z" duration="2.128529" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1063" name="WarehousePlaythroughTests" fullname="OrangeCat.Tests.WarehousePlaythroughTests" classname="OrangeCat.Tests.WarehousePlaythroughTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-07 13:49:25Z" end-time="2026-11-07 13:49:40Z" duration="14.571412" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1064" name="BothCatsClearWarehouseUsingNormalInputs" fullname="OrangeCat.Tests.WarehousePlaythroughTests.BothCatsClearWarehouseUsingNormalInputs" methodname="BothCatsClearWarehouseUsingNormalInputs" classname="OrangeCat.Tests.WarehousePlaythroughTests" runstate="Runnable" seed="1241104427" result="Passed" start-time="2026-11-07 13:49:25Z" end-time="2026-11-07 13:49:40Z" duration="14.570912" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1065" name="WarehouseRunTests" fullname="OrangeCat.Tests.WarehouseRunTests" classname="OrangeCat.Tests.WarehouseRunTests" runstate="Runnable" testcasecount="4" result="Passed" start-time="2026-11-07 13:49:40Z" end-time="2026-11-07 13:49:41Z" duration="1.715121" total="4" passed="4" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1069" name="CanCannotBeCollectedUntilRatIsDefeated" fullname="OrangeCat.Tests.WarehouseRunTests.CanCannotBeCollectedUntilRatIsDefeated" methodname="CanCannotBeCollectedUntilRatIsDefeated" classname="OrangeCat.Tests.WarehouseRunTests" runstate="Runnable" seed="686633215" result="Passed" start-time="2026-11-07 13:49:40Z" end-time="2026-11-07 13:49:40Z" duration="0.107491" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1068" name="ClawTriggersRatHitPoseSparkAndPhysicalRecoil" fullname="OrangeCat.Tests.WarehouseRunTests.ClawTriggersRatHitPoseSparkAndPhysicalRecoil" methodname="ClawTriggersRatHitPoseSparkAndPhysicalRecoil" classname="OrangeCat.Tests.WarehouseRunTests" runstate="Runnable" seed="1855169550" result="Passed" start-time="2026-11-07 13:49:40Z" end-time="2026-11-07 13:49:40Z" duration="0.239677" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1067" name="PerfectGuardInterruptsChargeAndCounterHitsRat" fullname="OrangeCat.Tests.WarehouseRunTests.PerfectGuardInterruptsChargeAndCounterHitsRat" methodname="PerfectGuardInterruptsChargeAndCounterHitsRat" classname="OrangeCat.Tests.WarehouseRunTests" runstate="Runnable" seed="1641478814" result="Passed" start-time="2026-11-07 13:49:40Z" end-time="2026-11-07 13:49:40Z" duration="0.598967" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1066" name="RatTelegraphsThenChargesAndDamagesAnUnguardedPlayer" fullname="OrangeCat.Tests.WarehouseRunTests.RatTelegraphsThenChargesAndDamagesAnUnguardedPlayer" methodname="RatTelegraphsThenChargesAndDamagesAnUnguardedPlayer" classname="OrangeCat.Tests.WarehouseRunTests" runstate="Runnable" seed="925921943" result="Passed" start-time="2026-11-07 13:49:40Z" end-time="2026-11-07 13:49:41Z" duration="0.768187" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: E:\codex work space\2026-11-06\unity-6-3-lts-c-2d\work\Phase2Unity/CargoAdvancePlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

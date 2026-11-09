@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="2" result="Passed" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.0276849">
+  <test-suite type="TestSuite" id="1000" name="OrangeCatBreakout" fullname="OrangeCatBreakout" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.027685" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="EditMode" />
+    </properties>
+    <test-suite type="Assembly" id="1004" name="OrangeCat.EditMode.dll" fullname="E:/codex work space/2026-11-06/unity-6-3-lts-c-2d/work/Phase2Unity/Library/ScriptAssemblies/OrangeCat.EditMode.dll" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.021277" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="34080" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="EditMode" />
+        <property name="EditorOnly" value="True" />
+      </properties>
+      <test-suite type="TestSuite" id="1005" name="OrangeCat" fullname="OrangeCat" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.021040" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1006" name="Tests" fullname="OrangeCat.Tests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.020940" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1001" name="StateAndDefinitionTests" fullname="OrangeCat.Tests.StateAndDefinitionTests" classname="OrangeCat.Tests.StateAndDefinitionTests" runstate="Runnable" testcasecount="2" result="Passed" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.020285" total="2" passed="2" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1003" name="DeadIsTerminalAndRollCannotBeCancelledIntoAttack" fullname="OrangeCat.Tests.StateAndDefinitionTests.DeadIsTerminalAndRollCannotBeCancelledIntoAttack" methodname="DeadIsTerminalAndRollCannotBeCancelledIntoAttack" classname="OrangeCat.Tests.StateAndDefinitionTests" runstate="Runnable" seed="1945864983" result="Passed" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.010865" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1002" name="RollWindowHasExactBoundaries" fullname="OrangeCat.Tests.StateAndDefinitionTests.RollWindowHasExactBoundaries" methodname="RollWindowHasExactBoundaries" classname="OrangeCat.Tests.StateAndDefinitionTests" runstate="Runnable" seed="247452789" result="Passed" start-time="2026-11-07 05:20:53Z" end-time="2026-11-07 05:20:53Z" duration="0.000698" asserts="0">
+              <properties>
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: E:\codex work space\2026-11-06\unity-6-3-lts-c-2d\work\Phase2Unity\DeliveredEditMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

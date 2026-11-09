@@ -1,0 +1,262 @@
+{
+  "name": "PlayerControls",
+  "maps": [
+    {
+      "name": "Gameplay",
+      "id": "254048f4-1e57-4075-a505-79063f191747",
+      "actions": [
+        {
+          "name": "Move",
+          "type": "Value",
+          "id": "f7c495f3-4049-4f7a-93da-435e1a7e3c34",
+          "expectedControlType": "Axis"
+        },
+        {
+          "name": "Jump",
+          "type": "Button",
+          "id": "0e5bb26a-fee7-4ae8-8e25-18ca7ddd60a1",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Attack",
+          "type": "Button",
+          "id": "fc07d34f-4e2f-4882-b743-1e8a2bbbfd2e",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Roll",
+          "type": "Button",
+          "id": "8109acec-f31f-4b3a-9ce9-6407685013c2",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Guard",
+          "type": "Button",
+          "id": "a0260d11-8c38-417e-8225-20b4c3239e01",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Interact",
+          "type": "Button",
+          "id": "1af803c0-0f08-4f66-a8a1-b6b63022b6f3",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Pause",
+          "type": "Button",
+          "id": "6d2a5f1d-ab17-4ba9-9aba-345639d79664",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Hiss",
+          "type": "Button",
+          "id": "fccf5631-02a7-405c-b146-268f01ff9cf3",
+          "expectedControlType": "Button"
+        }
+      ],
+      "bindings": [
+        {
+          "name": "Keyboard",
+          "id": "0ca4b853-64f7-411b-b9c5-a8b56b2f81a2",
+          "path": "1DAxis",
+          "action": "Move",
+          "isComposite": true
+        },
+        {
+          "name": "negative",
+          "id": "1450d6d0-a4b7-4583-9278-145e89723376",
+          "path": "<Keyboard>/a",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "positive",
+          "id": "f9547336-8012-47f7-98dc-40918a2ccdc7",
+          "path": "<Keyboard>/d",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "negative",
+          "id": "6c1db4b4-b63c-4896-9d01-90136fc51394",
+          "path": "<Keyboard>/leftArrow",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "positive",
+          "id": "fe2d22ed-2383-4ab6-9dcf-7c34ba7eb7c7",
+          "path": "<Keyboard>/rightArrow",
+          "action": "Move",
+          "isPartOfComposite": true
+        },
+        {
+          "name": "",
+          "id": "ee6bcd10-df8b-4732-9d02-e8b34e4750a2",
+          "path": "<Gamepad>/leftStick/x",
+          "action": "Move",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "de9838d9-b53d-4267-8583-833ddc7bd80e",
+          "path": "<Keyboard>/space",
+          "action": "Jump",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "1e0ceef8-7f74-4147-9293-1894d905b737",
+          "path": "<Gamepad>/buttonSouth",
+          "action": "Jump",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "e8a2c388-c36d-4d28-9a81-ffc404fc0120",
+          "path": "<Keyboard>/j",
+          "action": "Attack",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "30cd7918-a90b-49aa-b2be-1c7a11c6112e",
+          "path": "<Gamepad>/buttonWest",
+          "action": "Attack",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "ea152b97-fc1d-4dae-8619-e4dfc237a174",
+          "path": "<Keyboard>/leftShift",
+          "action": "Roll",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "9df06e45-29a8-4e00-8177-b964182e5c43",
+          "path": "<Gamepad>/buttonEast",
+          "action": "Roll",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "5915e236-2821-41d1-84cf-af5c232ef461",
+          "path": "<Keyboard>/k",
+          "action": "Guard",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "d64df0af-366b-45eb-9795-0c8c49fb9093",
+          "path": "<Gamepad>/leftShoulder",
+          "action": "Guard",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "4ee25edf-6a5c-4d7b-8ea2-8688044861d1",
+          "path": "<Keyboard>/e",
+          "action": "Interact",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "f678ddd0-f777-434a-acbe-cc4047ceca02",
+          "path": "<Gamepad>/buttonNorth",
+          "action": "Interact",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "de7945f2-ebfb-4e9a-9ab7-2fd86c0c8735",
+          "path": "<Keyboard>/escape",
+          "action": "Pause",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "34e461ee-28a6-4100-b2e1-b1c3ebd7c41b",
+          "path": "<Gamepad>/start",
+          "action": "Pause",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "7c7606c1-cd09-418a-91e5-1f57af5b46e3",
+          "path": "<Keyboard>/q",
+          "action": "Hiss",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "c9bf4e13-bcb3-41a3-b019-b6ff727cc76b",
+          "path": "<Gamepad>/rightShoulder",
+          "action": "Hiss",
+          "groups": "",
+          "interactions": "",
+          "processors": "",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    }
+  ],
+  "controlSchemes": []
+}

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="7" result="Passed" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-08 09:07:07Z" end-time="2026-11-08 09:07:23Z" duration="15.2940841">
+  <test-suite type="TestSuite" id="1082" name="OrangeCatBreakout" fullname="OrangeCatBreakout" runstate="Runnable" testcasecount="57" result="Passed" start-time="2026-11-08 09:07:07Z" end-time="2026-11-08 09:07:23Z" duration="15.294084" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1077" name="OrangeCat.PlayMode.dll" fullname="E:/codex work space/2026-11-06/unity-6-3-lts-c-2d/work/Phase2Unity/Library/ScriptAssemblies/OrangeCat.PlayMode.dll" runstate="Runnable" testcasecount="57" result="Passed" start-time="2026-11-08 09:07:07Z" end-time="2026-11-08 09:07:23Z" duration="15.287313" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="66956" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1078" name="OrangeCat" fullname="OrangeCat" runstate="Runnable" testcasecount="57" result="Passed" start-time="2026-11-08 09:07:07Z" end-time="2026-11-08 09:07:23Z" duration="15.286445" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1079" name="Tests" fullname="OrangeCat.Tests" runstate="Runnable" testcasecount="57" result="Passed" start-time="2026-11-08 09:07:07Z" end-time="2026-11-08 09:07:23Z" duration="15.286113" total="7" passed="7" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1003" name="BellyVoiceVerification" fullname="OrangeCat.Tests.BellyVoiceVerification" classname="OrangeCat.Tests.BellyVoiceVerification" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-08 09:07:07Z" end-time="2026-11-08 09:07:08Z" duration="0.475863" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1004" name="VoiceStartsOnLaughAndStopsOnDeath" fullname="OrangeCat.Tests.BellyVoiceVerification.VoiceStartsOnLaughAndStopsOnDeath" methodname="VoiceStartsOnLaughAndStopsOnDeath" classname="OrangeCat.Tests.BellyVoiceVerification" runstate="Runnable" seed="12264895" result="Passed" start-time="2026-11-08 09:07:07Z" end-time="2026-11-08 09:07:08Z" duration="0.467711" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1043" name="LoadingBayPlayModeTests" fullname="OrangeCat.Tests.LoadingBayPlayModeTests" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-08 09:07:08Z" end-time="2026-11-08 09:07:23Z" duration="14.806892" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1048" name="BellyBumpTelegraphsAndDealsOneDamage" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.BellyBumpTelegraphsAndDealsOneDamage" methodname="BellyBumpTelegraphsAndDealsOneDamage" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="2084481476" result="Passed" start-time="2026-11-08 09:07:08Z" end-time="2026-11-08 09:07:09Z" duration="0.870223" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="BellyLaughRaisesItsPalmOnlyAfterSeeingThePlayer" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.BellyLaughRaisesItsPalmOnlyAfterSeeingThePlayer" methodname="BellyLaughRaisesItsPalmOnlyAfterSeeingThePlayer" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="378058228" result="Passed" start-time="2026-11-08 09:07:09Z" end-time="2026-11-08 09:07:09Z" duration="0.096535" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="BellyLaughReactsToClawsAndCancelsItsAttack" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.BellyLaughReactsToClawsAndCancelsItsAttack" methodname="BellyLaughReactsToClawsAndCancelsItsAttack" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1793710999" result="Passed" start-time="2026-11-08 09:07:09Z" end-time="2026-11-08 09:07:09Z" duration="0.610100" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" methodname="CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1850880840" result="Passed" start-time="2026-11-08 09:07:09Z" end-time="2026-11-08 09:07:18Z" duration="8.942848" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1045" name="CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" methodname="CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="341456300" result="Passed" start-time="2026-11-08 09:07:18Z" end-time="2026-11-08 09:07:22Z" duration="3.571423" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1044" name="MovingLiftCarriesTheCatAndLetsItJumpOff" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.MovingLiftCarriesTheCatAndLetsItJumpOff" methodname="MovingLiftCarriesTheCatAndLetsItJumpOff" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1758591389" result="Passed" start-time="2026-11-08 09:07:22Z" end-time="2026-11-08 09:07:23Z" duration="0.714184" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: E:\codex work space\2026-11-06\unity-6-3-lts-c-2d\work\Phase2Unity/BellyVoicePlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

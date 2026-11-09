@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a03e32263bb54808e0d34b4058c4673, type: 3}
+  m_Name: HaoJu
+  m_EditorClassIdentifier: OrangeCat.Runtime::OrangeCat.CharacterDefinition
+  displayName: "\u54C8\u6A58"
+  moveSpeed: 7
+  acceleration: 35
+  deceleration: 45
+  jumpSpeed: 10
+  gravityScale: 3
+  fallGravityMultiplier: 1.5
+  jumpCut: 0.45
+  maxJumps: 2
+  coyoteTime: 0.1
+  jumpBuffer: 0.12
+  rollDuration: 0.42
+  rollSpeed: 9
+  invincibleStart: 0.1
+  invincibleEnd: 0.3
+  maxHealth: 4
+  primaryAttack: {fileID: 11400000, guid: 06d7d0c6be7100541a1105c8c8231262, type: 2}
+  comboAttack: {fileID: 11400000, guid: d9ea8b90ac15b5c46a2c427a682aa2e0, type: 2}
+  counterAttack: {fileID: 0}
+  finisherAttack: {fileID: 11400000, guid: a34b2c78d2f7b574190286bd71abba4d, type: 2}
+  hissAttack: {fileID: 11400000, guid: 227ff72ad14f56f428b41d3c52290a01, type: 2}
+  hissCooldown: 1.2
+  comboInputStart: 0.15
+  supportsGuard: 0
+  guardSpeedMultiplier: 0.25
+  guardDamageMultiplier: 0.3
+  perfectGuardDuration: 0.15
+  counterDuration: 0.8
+  hurtDuration: 0.18
+  hurtInvulnerability: 0.55

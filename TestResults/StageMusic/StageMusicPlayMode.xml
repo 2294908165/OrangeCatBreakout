@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<test-run id="2" testcasecount="8" result="Passed" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.5.0.0" clr-version="4.0.30319.42000" start-time="2026-11-08 09:27:36Z" end-time="2026-11-08 09:27:58Z" duration="22.424258">
+  <test-suite type="TestSuite" id="1086" name="OrangeCatBreakout" fullname="OrangeCatBreakout" runstate="Runnable" testcasecount="59" result="Passed" start-time="2026-11-08 09:27:36Z" end-time="2026-11-08 09:27:58Z" duration="22.424258" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+    <properties>
+      <property name="platform" value="PlayMode" />
+    </properties>
+    <test-suite type="Assembly" id="1081" name="OrangeCat.PlayMode.dll" fullname="E:/codex work space/2026-11-06/unity-6-3-lts-c-2d/work/Phase2Unity/Library/ScriptAssemblies/OrangeCat.PlayMode.dll" runstate="Runnable" testcasecount="59" result="Passed" start-time="2026-11-08 09:27:36Z" end-time="2026-11-08 09:27:58Z" duration="22.417216" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+      <properties>
+        <property name="_PID" value="2548" />
+        <property name="_APPDOMAIN" value="Unity Child Domain" />
+        <property name="platform" value="PlayMode" />
+        <property name="EditorOnly" value="False" />
+      </properties>
+      <test-suite type="TestSuite" id="1082" name="OrangeCat" fullname="OrangeCat" runstate="Runnable" testcasecount="59" result="Passed" start-time="2026-11-08 09:27:36Z" end-time="2026-11-08 09:27:58Z" duration="22.416439" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+        <properties />
+        <test-suite type="TestSuite" id="1083" name="Tests" fullname="OrangeCat.Tests" runstate="Runnable" testcasecount="59" result="Passed" start-time="2026-11-08 09:27:36Z" end-time="2026-11-08 09:27:58Z" duration="22.415759" total="8" passed="8" failed="0" inconclusive="0" skipped="0" asserts="0">
+          <properties />
+          <test-suite type="TestFixture" id="1045" name="LoadingBayPlayModeTests" fullname="OrangeCat.Tests.LoadingBayPlayModeTests" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" testcasecount="6" result="Passed" start-time="2026-11-08 09:27:36Z" end-time="2026-11-08 09:27:51Z" duration="15.021564" total="6" passed="6" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1050" name="BellyBumpTelegraphsAndDealsOneDamage" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.BellyBumpTelegraphsAndDealsOneDamage" methodname="BellyBumpTelegraphsAndDealsOneDamage" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1989131046" result="Passed" start-time="2026-11-08 09:27:36Z" end-time="2026-11-08 09:27:37Z" duration="0.944480" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1049" name="BellyLaughRaisesItsPalmOnlyAfterSeeingThePlayer" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.BellyLaughRaisesItsPalmOnlyAfterSeeingThePlayer" methodname="BellyLaughRaisesItsPalmOnlyAfterSeeingThePlayer" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="2038146717" result="Passed" start-time="2026-11-08 09:27:37Z" end-time="2026-11-08 09:27:37Z" duration="0.089904" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1051" name="BellyLaughReactsToClawsAndCancelsItsAttack" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.BellyLaughReactsToClawsAndCancelsItsAttack" methodname="BellyLaughReactsToClawsAndCancelsItsAttack" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="767791875" result="Passed" start-time="2026-11-08 09:27:37Z" end-time="2026-11-08 09:27:37Z" duration="0.610235" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1048" name="CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" methodname="CampaignReachesRooftopAutomaticallyAfterRidingTheCargoLift" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1661344759" result="Passed" start-time="2026-11-08 09:27:37Z" end-time="2026-11-08 09:27:46Z" duration="9.056881" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1047" name="CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" methodname="CargoLiftWaitsForAPassengerWhoJumpsJustBeforeArrival" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="834933510" result="Passed" start-time="2026-11-08 09:27:46Z" end-time="2026-11-08 09:27:50Z" duration="3.599086" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+            <test-case id="1046" name="MovingLiftCarriesTheCatAndLetsItJumpOff" fullname="OrangeCat.Tests.LoadingBayPlayModeTests.MovingLiftCarriesTheCatAndLetsItJumpOff" methodname="MovingLiftCarriesTheCatAndLetsItJumpOff" classname="OrangeCat.Tests.LoadingBayPlayModeTests" runstate="Runnable" seed="1625049088" result="Passed" start-time="2026-11-08 09:27:50Z" end-time="2026-11-08 09:27:51Z" duration="0.711972" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1066" name="RooftopPlayModeTests" fullname="OrangeCat.Tests.RooftopPlayModeTests" classname="OrangeCat.Tests.RooftopPlayModeTests" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-08 09:27:51Z" end-time="2026-11-08 09:27:57Z" duration="5.714808" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1067" name="PlayerCanCrossTheRoofPowerBothBreakersAndEscape" fullname="OrangeCat.Tests.RooftopPlayModeTests.PlayerCanCrossTheRoofPowerBothBreakersAndEscape" methodname="PlayerCanCrossTheRoofPowerBothBreakersAndEscape" classname="OrangeCat.Tests.RooftopPlayModeTests" runstate="Runnable" seed="1463228639" result="Passed" start-time="2026-11-08 09:27:51Z" end-time="2026-11-08 09:27:57Z" duration="5.714102" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+            </test-case>
+          </test-suite>
+          <test-suite type="TestFixture" id="1068" name="StageMusicVerification" fullname="OrangeCat.Tests.StageMusicVerification" classname="OrangeCat.Tests.StageMusicVerification" runstate="Runnable" testcasecount="1" result="Passed" start-time="2026-11-08 09:27:57Z" end-time="2026-11-08 09:27:58Z" duration="1.675853" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0">
+            <properties />
+            <test-case id="1069" name="CampaignMusicPlaysLoopsAndUnloadsBetweenStages" fullname="OrangeCat.Tests.StageMusicVerification.CampaignMusicPlaysLoopsAndUnloadsBetweenStages" methodname="CampaignMusicPlaysLoopsAndUnloadsBetweenStages" classname="OrangeCat.Tests.StageMusicVerification" runstate="Runnable" seed="881204658" result="Passed" start-time="2026-11-08 09:27:57Z" end-time="2026-11-08 09:27:58Z" duration="1.675271" asserts="0">
+              <properties>
+                <property name="_JOINTYPE" value="UnityCombinatorial" />
+                <property name="retryIteration" value="0" />
+                <property name="repeatIteration" value="0" />
+              </properties>
+              <output><![CDATA[Saving results to: E:\codex work space\2026-11-06\unity-6-3-lts-c-2d\work\Phase2Unity/StageMusicPlayMode.xml
+]]></output>
+            </test-case>
+          </test-suite>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>

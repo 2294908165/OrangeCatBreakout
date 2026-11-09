@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a03e32263bb54808e0d34b4058c4673, type: 3}
+  m_Name: JiangZhua
+  m_EditorClassIdentifier: OrangeCat.Runtime::OrangeCat.CharacterDefinition
+  displayName: "\u59DC\u722A"
+  moveSpeed: 6.3
+  acceleration: 35
+  deceleration: 45
+  jumpSpeed: 10
+  gravityScale: 3
+  fallGravityMultiplier: 1.5
+  jumpCut: 0.45
+  maxJumps: 2
+  coyoteTime: 0.1
+  jumpBuffer: 0.12
+  rollDuration: 0.42
+  rollSpeed: 9
+  invincibleStart: 0.1
+  invincibleEnd: 0.3
+  maxHealth: 6
+  primaryAttack: {fileID: 11400000, guid: 0810b2cbd1627c7499b05c5a1805d804, type: 2}
+  comboAttack: {fileID: 0}
+  counterAttack: {fileID: 11400000, guid: c3642a6c828e1ed4f84050235d7dfedd, type: 2}
+  comboInputStart: 0.15
+  supportsGuard: 1
+  guardSpeedMultiplier: 0.25
+  guardDamageMultiplier: 0.3
+  perfectGuardDuration: 0.15
+  counterDuration: 0.8
+  hurtDuration: 0.18
+  hurtInvulnerability: 0.55
